@@ -1,7 +1,7 @@
 {
-  "name": "react-webpack-babel",
-  "version": "0.0.2",
-  "description": "React Webpack Babel Starter Kit",
+  "name": "frequency-poc",
+  "version": "0.0.1",
+  "description": "Frequency CMS POC",
   "main": "''",
   "scripts": {
     "build": "NODE_ENV=production webpack -p --config webpack.production.config.js --progress --profile --colors",
@@ -9,19 +9,17 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alicoding/react-webpack-babel"
+    "url": "https://github.com/phuongnd11/frequency-poc.git"
   },
   "keywords": [
     "React",
     "Webpack",
-    "Babel",
-    "Starter",
-    "template"
+    "Babel"
   ],
-  "author": "Ali Al Dallal",
+  "author": "Phuong Dang",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/alicoding/react-webpack-babel/issues"
+    "url": "https://github.com/phuongnd11/frequency-poc/issues"
   },
   "homepage": "https://github.com/alicoding/react-webpack-babel#readme",
   "dependencies": {
