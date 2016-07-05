@@ -52,7 +52,7 @@ class Content extends React.Component {
 		var $;
 		$ = require('jquery');
 		$.ajax({
-			url : "https://jsonp.afeld.me/?url=https://dev.freq.us/api/2.0/channels/" + channelId + "/videos",
+			url : "http://203.162.103.34:8082/cors-proxy-1.0-SNAPSHOT/cn1-cors-proxy?_target=https://dev.freq.us/api/2.0/channels/" + channelId + "/videos",
 			type : "get",
 			headers : {
 				'Content-Type': 'application/json',
