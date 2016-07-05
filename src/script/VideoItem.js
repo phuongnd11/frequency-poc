@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 class VideoItem extends React.Component {
 
