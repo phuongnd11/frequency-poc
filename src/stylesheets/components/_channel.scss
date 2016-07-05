@@ -1,0 +1,207 @@
+@import '../main';
+
+.header-bar {
+    background-color: #535353;
+    color: #ffffff;
+    line-height: 75px;
+    span.welcome {
+        margin-right: 50px;
+    }
+    a.logout {
+        color: $primary-blue-color;
+        text-decoration: underline;
+    }
+    img.logo {
+        width: 60%;
+        display: inline-block;
+    }
+}
+
+.right-section {
+    background-color: #eaeaea;
+}
+
+.navbar {
+    height: 73px;
+}
+
+/* Customized Bootstrap */
+
+body {
+    font-size: 20px;
+    color: $primary-font-color;
+}
+
+/* html, body, body > div, body > div > div, .tab-bar, .container-fluid, .container-fluid > div.row  {
+    height: 100%
+}*/
+
+.btn-frequency {
+    background-color: $primary-blue-color;
+    border-radius: 3px;
+    color: #ffffff;
+}
+
+.btn-frequency:hover {
+    color: #ffffff;
+    background-color: $hover-button-color;
+}
+
+.tab-bar {
+    background-color: $primary-bg-color;
+ //   height: 100%;
+    .tab-button {
+        padding: 0;
+        background-color: #ffffff;
+        .dropdown-container {
+            line-height: 90px;
+            margin-right: 60px;
+            button {
+                width: 300px;
+                border-radius: 0;
+                height: 45px;
+                font-size: 20px;
+                color: $primary-font-color;
+                text-align: left;
+                line-height: 5px;
+                span {
+                    float: right;
+                    .caret {
+                        border-top: 7px dashed;
+                        border-right: 7px solid transparent;
+                        border-left: 7px solid transparent;
+                    }
+                }
+            }
+            .dropdown.btn-group:last-child {
+                margin-left: 15px;
+            }
+        }
+    }    
+    .nav-tabs {
+        border: 0;    
+        margin-left: 60px;
+        >li {
+            >a {
+                color: $primary-font-color;
+                line-height: 90px;
+                border: 0;
+                font-weight: 700;
+                font-size: 22px;
+                text-align: center;
+                width: 200px;
+                padding: 0;
+                margin: 0;
+                .selected {
+                    display: none;
+                }    
+            }
+            a:hover, a:active, a:focus, a:visited {
+                border: 0;                
+            }
+            a:hover {
+                background: #ffffff;
+                color: $primary-blue-color;
+            }
+        }        
+        >li.active {
+            >a {
+                color: $primary-blue-color;
+                .selected {
+                    display: block;
+                    background-color: $primary-blue-color;
+                    height: 3px;
+                    position: relative;
+                    top: -25px;
+                    .triagle {
+                        border-left: 10px solid transparent;
+                        border-right: 10px solid transparent;
+                        border-top: 10px solid $primary-blue-color;
+                        width: 0;
+                        height: 0;
+                        position: relative;
+                        top: -20px;
+                    }                    
+                }                             
+            }
+        }
+    }
+    .tab-content {
+ //        height: inherit;
+        .panel {
+            border: 0;
+            margin: 0;
+            background-color: $primary-bg-color;
+  //          height: inherit;
+            .content {
+  //              height: inherit;
+                .channel-details {
+                    background-color: $secondary-bg-color;
+   //                 height: inherit;
+                }
+                .header {
+                    line-height: 80px;
+                    margin-bottom: 15px;
+                    .all-channels {
+                        padding-left: 30px;
+                    }
+                }   
+                .table-striped > tbody {
+                    > tr:nth-of-type(odd) {
+                        background-color: #fafafa;
+                    }
+                    > tr:nth-of-type(odd) > tr:nth-of-type(even) {
+                        background-color: #ffffff;
+                    }
+                }
+                .table {
+                    > thead {
+                        > tr {
+                            background-color: #e1dfe0;
+                            border-left: 7px solid #e1dfe0;  
+                            th {
+                                padding: 20px;
+                            }
+                        }
+                    }
+                    > tbody {
+                        > tr {
+                            border-left: 7px solid #d2eaf6;
+                            height: 76px;
+                            > td {
+                                padding: 20px;
+                                border-color: #ffffff;
+                            }
+                        }
+                    }
+                }
+                .table-hover {
+                    > tbody {
+                        > tr:hover, tr.active {
+                            > td {
+                                border-top: 2px solid $primary-blue-color;
+                                border-bottom: 2px solid $primary-blue-color;
+                                background-color: #e5edf1;
+                            }
+                            > td:last-child {
+                                border-right: 2px solid $primary-blue-color;
+                            }
+                            > td:first-child {
+                                border-left: 7px solid $primary-blue-color;
+                            }
+                        }
+                    }
+                    
+                }
+            }            
+        }
+    }
+}
+
+
+
+
+
+
+
+
