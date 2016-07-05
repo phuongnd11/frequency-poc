@@ -3,8 +3,7 @@ This is a simple application using [React](https://facebook.github.io/react/), [
 
 ### What's in it?
 
-Channel List
-Videos for a selected channel
+Channel list and videos for a selected channel
 
 ### To run
 
