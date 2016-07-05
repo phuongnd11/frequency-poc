@@ -1,4 +1,4 @@
-require("../../node_modules/bootstrap/dist/css/bootstrap.min.css")
+require('../../node_modules/bootstrap/dist/css/bootstrap.min.css');
 require('../stylesheets/components/_channel.scss');
 
 import React from 'react';

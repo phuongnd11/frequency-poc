@@ -1,0 +1,28 @@
+{
+  "parser": "babel-eslint",
+
+  "extends": ["airbnb"],
+
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true,
+      "modules": true
+    },
+    "ecmaVersion": 7,
+    "sourceType": "module"
+  },
+
+  "plugins": ["import"],
+
+  "rules": {
+    "import/no-unresolved": [
+      0
+    ],
+    "global-require": 0
+  },
+
+  "ecmaFeatures": {
+    "jsx": true
+  }
+}
